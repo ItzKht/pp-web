@@ -3,51 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Introduction Page - Bugu Dugu Diary</title>
+  <title>Introduction Page - Bugu Dugu Theme</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: url('bd.jpeg') no-repeat center center;
+      background: url('https://i.pinimg.com/736x/24/59/dc/2459dc37a01e75614e61f04dd092bb65.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-    }
-    .diary-container {
-      background: url('https://www.google.com/imgres?q=bugu%20dugu%20meme%20background%20image%20for%20website&imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2F24%2F59%2Fdc%2F2459dc37a01e75614e61f04dd092bb65.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F852658141966127098%2F&docid=w0uJg6iJ8vcRtM&tbnid=wdRORs4lBSpFnM&vet=12ahUKEwjxy8_2nZKOAxX9qVYBHd8RFd4QM3oECGAQAA..i&w=736&h=1308&hcb=2&ved=2ahUKEwjxy8_2nZKOAxX9qVYBHd8RFd4QM3oECGAQAA') no-repeat center center;
-      background-size: contain;
-      width: 400px;
-      height: 600px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-      text-align: center;
-      line-height: 1.6;
       flex-direction: column;
     }
-    .diary-text {
-      padding: 20px;
-      color: #5b4636;
+
+    .container {
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 25px;
+      padding: 30px 20px;
+      max-width: 350px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      backdrop-filter: blur(4px);
+      margin-bottom: 20px;
+    }
+
+    .container p {
       font-size: 14px;
+      color: #5b4636;
+      line-height: 1.6;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #d14f72;
+    }
+
+    .next-btn {
+      background-color: #d14f72;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    .next-btn:hover {
+      background-color: #b03c5e;
     }
   </style>
 </head>
 <body>
 
-  <div class="diary-container">
-    <div class="diary-text">
-      <p>
-        From the very first day we started talking, I never thought you would become such an important part of my life.
-        <br><br>
-        Pehle bas normal chats hoti thi, casual mazak, thoda masti. Bin duje ki tareef, aaj tum mere liye sabse zyada important ho gayi ho.
-        <br><br>
-        You might not realise, but you have become my comfort zone. Jab tum mere liye sabse zyada jagti ho, jaise I don’t have to hide anything. You listen to everything with so much patience, bina judge kiye, bina interrupt kiye. Aur shayad isi liye, aaj tum mere liye sabse zyada important ho gayi ho.
-      </p>
-    </div>
+  <div class="container">
+    <h2>For Manya 🫶🏻</h2>
+    <p>
+      From the very first day we started talking, I never thought you would become such an important part of my life.<br><br>
+      Pehle bas normal chats hoti thi, casual baatein, thoda masti mazak. But slowly, every conversation with you started meaning a lot to me. Your little smiles, your sleepy voice, your random messages in the middle of the day, and the way you share even your smallest thoughts with me – all of it makes my day so much better.<br><br>
+      You might not realise this, but you have become my comfort zone. Jab bhi main thoda upset hota hoon na, bas tumhara naam phone pe dekhkar lagta hai sab theek ho jayega. Whenever I feel happy, you are the first person I want to share it with. Whenever I feel low, your presence gives me strength. Whenever I’m lost, you are the one who gives me hope.<br><br>
+      Tumhare saath har baat itni easy lagti hai, jaise I don’t have to hide anything. You listen to everything with so much patience, bina judge kiye, bina interrupt kiye. Aur shayad isi liye, aaj tum mere liye sabse zyada important ho gayi ho.<br><br>
+      This is just the beginning, Manya… today, I want to open my heart completely to you. Swipe ahead to know my feelings that I could never say out loud. ❤️
+    </p>
   </div>
+
+  <button class="next-btn" onclick="location.href='page2.html'">Next ➔</button>
 
 </body>
 </html>
